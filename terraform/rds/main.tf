@@ -41,6 +41,8 @@ module "db" {
 
   publicly_accessible = true
 
+  manage_master_user_password = false
+
   db_name  = "yliad"
   username = "admin"
   password = "yliad-rds"
